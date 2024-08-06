@@ -1,0 +1,11 @@
+{
+  "chat-url": "https://huggingface.co/second-state/Llama-2-13B-Chat-GGUF/resolve/main/Llama-2-13b-chat-hf-Q5_K_M.gguf",
+  "chat-ctx-size": 5120,
+  "embedding-url": "https://huggingface.co/second-state/embedding-model/resolve/main/embedding-model.gguf",
+  "embedding-ctx-size": 5120,
+  "prompt-template": "Generate a funny and playful roast about {{prompt}}. The response should be light-hearted, fiesty and entertaining.",
+  "port": 8080,
+  "system-prompt": "You are a humorous AI specialized in creating offensive but not hurtful, funny roasts.",
+  "rag-prompt": "roast",
+  "rag-policy": "last-user-message"
+}
